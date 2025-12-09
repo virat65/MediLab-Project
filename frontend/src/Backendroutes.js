@@ -1,7 +1,7 @@
 // src/api/backendApi.js
 
-const server = process.env.REACT_APP_BACKEND_ROUTING || "http://localhost:3333";
-
+// const server = process.env.REACT_APP_BACKEND_ROUTING || "http://localhost:3333";
+const server ="https://medilab-project-backend.onrender.com";
 const api = {
   // 🔹 AUTH
   signup: {
