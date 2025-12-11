@@ -18,7 +18,7 @@
 }
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
-:root { 
+:root {
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
   --default-color: #444444; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #2c4964; /* Color for headings, subheadings and title throughout the website */
@@ -492,7 +492,7 @@ h6 {
     z-index: 9997;
   }
 
-  .navmenu ul {
+  /* .navmenu ul {
     display: none;
     list-style: none;
     position: absolute;
@@ -506,15 +506,18 @@ h6 {
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
-  }
+  } */
 
   .navmenu a,
   .navmenu a:focus {
     color: var(--nav-dropdown-color);
-    padding: 10px 20px;
+    padding: 10px 0px;
     font-family: var(--nav-font);
     font-size: 17px;
     font-weight: 500;
+    flex-wrap: wrap;
+    /* border: 2px solid red; */
+    word-wrap:break-word;
     display: flex;
     align-items: center;
     justify-content: space-between;
